@@ -56,7 +56,7 @@ class MainActivity : ComponentActivity() {
                         }
                         val bringIntoViewRequester = BringIntoViewRequester()
                         val coroutineScope = rememberCoroutineScope()
-                        BasicTextField(
+                        OutlinedTextField(
                             value = text,
                             onValueChange = {
                                 text = it
