@@ -65,8 +65,8 @@ class MainActivity : ComponentActivity() {
                                 }
                             },
                             modifier = Modifier
-                                .fillMaxSize()
                                 .bringIntoViewRequester(bringIntoViewRequester)
+                                .fillMaxSize()
                                 .padding(horizontal = 12.dp)
                                 .border(1.dp, Color.Black),
                         )
